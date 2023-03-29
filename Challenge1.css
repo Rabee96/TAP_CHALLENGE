@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+:root {
+  --body_bg: #c5c5c5;
+  --primary: #8132a3;
+  --light: #eee;
+  --white: #fff;
+  --black: #000;
+  font-family: "Open Sans";
+}
+
+body {
+  background-color: var(--body_bg);
+  height: 100vh;
+  width: 100vw;
+  margin: 0px;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardBody {
+  border-radius: 16px;
+  width: 250px;
+  height: 65%;
+  background-color: var(--primary);
+  padding-top: 16px;
+}
+
+#card_background {
+  background-color: var(--white);
+  width: 100%;
+  height: 100%;
+  border-radius: 0px 0px 16px 16px;
+}
+
+#imageSection {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  width: 60%;
+  height: 60%;
+  border-radius: 50%;
+}
+
+#informationSection {
+  padding: 16px;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.value {
+  font-size: 14px;
+  border-bottom: 1px solid var(--light);
+  padding-bottom: 8px;
+}
